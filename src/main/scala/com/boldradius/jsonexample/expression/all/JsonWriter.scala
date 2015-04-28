@@ -1,6 +1,6 @@
-package com.boldradius.expression.all
+package com.boldradius.jsonexample.expression.all
 
-import com.boldradius.expression._
+import com.boldradius.jsonexample.expression._
 
 
 object JsonWriter {

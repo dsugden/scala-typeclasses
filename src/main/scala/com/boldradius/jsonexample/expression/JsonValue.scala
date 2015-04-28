@@ -1,4 +1,4 @@
-package com.boldradius.expression
+package com.boldradius.jsonexample.expression
 
 sealed trait JsonValue
 case class JsonObject(entries:Map[String,JsonValue]) extends JsonValue

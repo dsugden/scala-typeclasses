@@ -1,4 +1,4 @@
-package com.boldradius.expression.some
+package com.boldradius.jsonexample.expression.some
 
 /**
  * from Typeclasses with Dan Rosen  https://www.youtube.com/watch?v=sVMES4RZF-8

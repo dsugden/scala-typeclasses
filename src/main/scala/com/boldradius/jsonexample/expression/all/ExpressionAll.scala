@@ -1,4 +1,4 @@
-package com.boldradius.expression.all
+package com.boldradius.jsonexample.expression.all
 
 trait ExpressionAll[A] {
   def value(expr:A):Int
