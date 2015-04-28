@@ -1,6 +1,6 @@
-package com.boldradius.expression.some
+package com.boldradius.jsonexample.expression.some
 
-import com.boldradius.expression._
+import com.boldradius.jsonexample.expression._
 
 trait Json[A] {
   def convertToJson(value:A):JsonValue

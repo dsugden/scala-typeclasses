@@ -1,6 +1,6 @@
-package com.boldradius.expression.some
+package com.boldradius.jsonexample.expression.some
 
-import com.boldradius.expression._
+import com.boldradius.jsonexample.expression._
 
 object JsonWriter {
 
@@ -80,11 +80,14 @@ object JsonWriter {
 
   def main(args:Array[String]):Unit = {
 
-    import com.boldradius.expression.some.Json._
+    import com.boldradius.jsonexample.expression.some.Json._
 
     val expr = Plus(Number(3),Minus(Number(2), Number(1)))
 
-    println( JsonWriter.write[Expression](expr) )
+    val a = Some(1)
+    a.get
+
+//    println( JsonWriter.write(expr) )
   }
 
 
